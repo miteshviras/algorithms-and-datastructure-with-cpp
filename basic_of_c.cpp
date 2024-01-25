@@ -12,6 +12,14 @@ using namespace std;
 // main() is where program execution begins.
 int main()
 {
-    cout << "hello";
+    int a, b, sum;
+    cout << "hello \n please enter values.\n";
+    cout << "enter value for a : ";
+    cin >> a;
+    cout << "enter value for b : ";
+    cin >> b;
+    sum = a + b;
+    cout << "\n\nthe sum of " << a << " and " << b << " is " << sum << "\n\n";
+
     return 0;
 }
